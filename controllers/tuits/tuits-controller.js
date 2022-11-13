@@ -15,7 +15,7 @@ const createTuit = (req, res) => {
     newTuit.likes = 0;
     newTuit.dislikes = 0;
     newTuit.liked = false;
-    newTuit.image = "emptyAvatar.png";
+    // newTuit.image = "emptyAvatar.png";
     tuits.push(newTuit);
     res.json(newTuit);
 }
